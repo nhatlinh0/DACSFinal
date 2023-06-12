@@ -1,0 +1,23 @@
+
+@media (max-width: 768px) {
+    .crop-animal{
+        display: flex;
+        flex-direction: column;
+        margin-top: 66px;
+        justify-content: center;
+    align-items: center;
+    }
+}
+.crop-animal-item--reverse {
+    flex-flow: row-reverse;
+
+}
+
+.crop-animal-item-desc--reverse {
+    margin-right: 100px;
+
+}
+.crop-animal-item-desc__content{
+    padding: 4rem;
+}
+

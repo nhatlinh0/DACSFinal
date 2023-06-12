@@ -1,0 +1,203 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formname {
+    font-size: 3.6rem;
+    font-weight: lighter;
+    margin: 40px 0;
+}
+
+.wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.avatarwrap {
+    height: 260px;
+    width: 300px;
+    background-color: #d8d8d8;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.titlewrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.lefttext {
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.righttext {
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.avatar {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 1px solid #000;
+    margin: 0 auto;
+    position: relative;
+}
+
+.image {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.camerawrap {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    bottom: -8px;
+    right: -8px;
+    box-shadow: 4px 4px 10px #333;
+}
+
+.cameraicon {
+    flex: 1;
+    font-size: 3.2rem;
+    color: #9e9d9d;
+    cursor: pointer;
+}
+
+.camerawrap:hover {
+    background-color: #acaaaa;
+    transition: all 0.3s ease;
+}
+
+.userinfowrap {
+    height: 260px;
+    flex: 1;
+    background-color: #d8d8d8;
+    border-radius: 10px;
+}
+
+.userformwrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leftform {
+    flex: 1;
+}
+
+.rightform {
+    flex: 1;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 20px;
+}
+
+.label {
+    font-size: 1.6rem;
+}
+
+.textbox {
+    width: 70%;
+    height: 30px;
+    background: #f3f0f0;
+    border-radius: 5px;
+    border: none;
+}
+
+.marleft {
+    margin-left: 10px;
+}
+
+.marright {
+    margin-right: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .wrap {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .avatarwrap {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .userformwrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: space-between;
+    }
+
+    .leftform {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .rightform {
+        width: 100%;
+    }
+
+    .userinfowrap {
+        height: 260px;
+        background-color: #d8d8d8;
+        border-radius: 10px;
+        margin: 0 auto;
+    }
+    
+    .item {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 10px 20px;
+    }
+    
+    .label {
+        font-size: 1.4rem;
+       max-width: 250px;
+    }
+    
+    .textbox {
+        max-width: 60%;
+        height: 30px;
+        background: #f3f0f0;
+        border-radius: 5px;
+        border: none;
+    }
+
+    .marleft {
+        margin: 0 auto;
+        margin-top: 20px;
+        width: 100%;
+
+    }
+    
+    .marright {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}

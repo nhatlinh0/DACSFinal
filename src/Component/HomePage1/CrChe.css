@@ -1,0 +1,59 @@
+
+.crop-animal-item-detail {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #fbfcfb;
+    padding: 10px;
+}
+.crop-animal-item__img {
+    height: 348px;
+    border-radius: 10px;
+}
+.crop-animal-item-desc>ul>li {
+    list-style-type: none;
+    font-size: 34px;
+    margin:10px;
+    background:#b0e7b8;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding:2px;
+   
+}
+ul {
+    list-style: none; 
+    font-size:20px; 
+  } 
+
+  li {
+    cursor: pointer;
+  }  
+  .content-item {
+    display: none;
+    font-size: 20px;
+
+  }  
+  .content-item.active {
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .crop-animal-item__img{
+      display:none;
+    }
+    .crop-animal-item-detail{
+      display: flex;
+     flex-direction: column;
+     
+    }
+    .crop-animal-item-desc>ul{
+      text-align: left;  
+        
+    }
+    
+  }
+
+
+
+
+
+

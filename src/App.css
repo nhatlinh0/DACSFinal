@@ -1,0 +1,50 @@
+
+:root
+{
+  --primary: #111;
+  --black: #000;
+  --text: #333;
+  --white: #fff;
+  --green: #01b637;
+}
+
+.App{  
+    overflow: hidden;
+    color: var(--black);    
+}
+* {
+  box-sizing: inherit;
+    margin: 0;
+    padding: 0; 
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.grid {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0  auto;
+}
+
+.grid__full-width {
+  width: 100%;
+}
+
+.grid__row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+}
+
+
+  
+
+  

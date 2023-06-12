@@ -1,0 +1,49 @@
+.container {
+    width: 100%;
+}
+
+.title {
+    margin-left: 2%;
+    font-size: 3.2rem;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+.wrap {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    line-height: 15px;
+    padding-bottom: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .content {
+        width: 100%;
+        background: #ffffff;
+        border: 1px solid #000000;
+        border-radius: 8px;
+        line-height: 15px;
+        padding-bottom: 300px;
+    }
+
+    .wrap {
+        width: 90%;
+        
+    }
+}

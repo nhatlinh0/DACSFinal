@@ -1,0 +1,155 @@
+.wraper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.image {
+    width: 70px;
+    height: 70px;
+}
+
+.imagelink {
+    line-height: 0px;
+    margin-left: 5%;
+}
+
+.title {
+    margin-left: 10%;
+    font-size: 3.6rem;
+    flex: 1;
+}
+
+.admin-wraper {
+    width: 160px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #eeeeee;
+    position: relative;
+    margin-right: 5%;
+}
+
+.admin-icon {
+    background-color: black;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.A {
+    color: #fff;
+    font-size: 3.2rem;
+}
+.admin-text {
+    font-size: 1.6rem;
+}
+
+.admin-arrow {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid black;
+    cursor: pointer;
+}
+
+.settingwrap {
+    position: absolute;
+    translate: 0px 100%;
+    width: 160px;
+    background-color: #eeeeee;
+    animation: fadeIn linear 0.3s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.setting {
+    border: 1px solid #333;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.setting:hover {
+    background-color: rgb(182, 255, 231);
+}
+
+.logout {
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: rgb(182, 255, 231);
+}
+
+.text {
+    font-size: 2rem;
+    text-align: start;
+    user-select: none;
+    padding-left: 10px;
+}
+
+.none {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 1.6rem;
+        margin-left: 5%;
+    }
+
+    .image {
+        width: 52px;
+        height: 52px;
+    }
+
+    .admin-wraper {
+        width: 80px;
+        height: 30px;
+        border-radius: 8px;
+    }
+
+    .admin-icon {
+        width: 16px;
+        height: 16px;
+    }
+
+    .A {
+        color: #fff;
+        font-size: 1.2rem;
+    }
+
+    .admin-text {
+        font-size: 1rem;
+    }
+
+    .admin-arrow {
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 8px solid black;
+    }
+
+    .settingwrap {
+        width: 80px;
+    }
+
+    .text {
+        font-size: 1.2rem;
+    }
+}

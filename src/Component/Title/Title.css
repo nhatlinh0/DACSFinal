@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Inter:wght@400;500;700&family=Lato:wght@300&family=Merriweather:wght@300;400;700;900&family=Nunito:wght@200;400&family=Open+Sans:wght@300&family=Pattaya&family=Poppins:wght@200&family=Roboto+Slab:wght@500&family=Roboto:wght@300;400&family=Tajawal:wght@200&display=swap'); 
+.title {
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 200px;
+    margin: 60px;
+}
+
+.title__text {
+    max-width: 600px;
+    font-size: 6.4rem;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Calibri';
+}
+
+.title__img {
+    margin-left: 52px;
+    box-shadow: 12px 5px 4px rgba(0,0,0,0.25) ;
+}
+
+.title__img.title__img--mainpage {
+    border-radius: 150px;
+    width: 560px;
+    height: 529px;
+
+}
+.title__first-ellipse {
+    width: 560px;
+    height: 400px;
+    position: absolute;
+    border-radius: 70%;
+    top: 0%;
+    left: -10%;
+    bottom: -17.02%;
+    right: 38.21%;
+    transform: rotate(30deg);
+    z-index: -1;
+    filter: blur(6.5px);
+}
+
+.title__second-ellipse {
+    width: 560px;
+    height: 400px;
+    position: absolute;
+    border-radius: 70%;
+    left: 65.47%;
+    right: 1.97%;
+    top: 57.78%;
+    bottom: -0.16%;
+    transform: rotate(-20deg);
+    z-index: -1;
+    filter: blur(6.5px);
+}
+
+.main-ellipse .title__first-ellipse {
+    background: rgba(217, 217, 217, 0.8);
+}
+
+.main-ellipse .title__second-ellipse {
+    background-image: linear-gradient(74deg, #FACA97, rgba(217,217,217,0));
+}
+@media (max-width: 670px) {
+    .title {
+        all:unset;
+        position: relative;
+        margin:40px;
+    
+    }
+    .title__first-ellipse {
+        width: 260px;
+        height: 240px;
+
+    }
+    .title__second-ellipse {
+        width: 260px;
+        height: 240px;
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+    .title__img.title__img--mainpage{
+        width: 300px;
+        height: auto;
+  
+    }
+    
+  }
